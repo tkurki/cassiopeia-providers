@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tkurki/cassiopeia-providers/issues"
   },
-  "homepage": "https://github.com/tkurki/cassiopeia-providers#readme"
+  "homepage": "https://github.com/tkurki/cassiopeia-providers#readme",
+  "dependencies": {
+    "node-ads1x15": "tkurki/node-ads1x15"
+  }
 }
