@@ -1,0 +1,19 @@
+{
+  "name": "cassiopeia-providers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkurki/cassiopeia-providers.git"
+  },
+  "author": "teppo.kurki@iki.fi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tkurki/cassiopeia-providers/issues"
+  },
+  "homepage": "https://github.com/tkurki/cassiopeia-providers#readme"
+}
