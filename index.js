@@ -1,7 +1,7 @@
 var Transform = require('stream').Transform;
 
 function I2cProvider() {
-  setInterval(measure.bind(this, this.push.bind(this)), 10000);
+  setInterval(measure.bind(this, this.push.bind(this)), 5000);
   Transform.call(this, {
     objectMode: true
   });
