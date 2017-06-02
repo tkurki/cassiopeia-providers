@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tkurki/cassiopeia-providers#readme",
   "dependencies": {
-    "node-ads1x15": "tkurki/node-ads1x15"
+    "node-ads1x15": "tkurki/node-ads1x15",
+    "ina219": "tkurki/node-ina219"
   }
 }
