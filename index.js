@@ -24,8 +24,7 @@ var ads1x15 = new Ads1x15(1, 0x48);
 function measure(callback) {
   var amps;
   ina219.getShuntVoltage_raw().then(function(shuntVoltage) {
-    console.log(shuntVoltage)
-    amps = shuntVoltage * coeff;
+    amps = (shuntVoltage & 0x8000 ? shuntVoltage - 0x10000 : shuntVoltage) * coeff;
     return ads1x15.readADCSingleEnded(0, 4096, 250);
   }).then(function(measuredVolts) {
     callback({
