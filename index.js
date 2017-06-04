@@ -3,7 +3,7 @@ var Transform = require('stream').Transform;
 var ina219 = require("ina219");
 ina219.init();
 
-const coeff = -0.016361102;
+const coeff = -0.020351086;
 
 
 function I2cProvider() {
